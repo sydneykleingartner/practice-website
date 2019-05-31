@@ -1,0 +1,55 @@
+body {
+	background-color: tomato;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: yellowgreen;
+	text-align: right;
+}
+
+h4 {
+	border:5px solid Tomato
+	padding: 10px
+}
+
+p {
+	color: lightcyan;
+	text-align: center;
+	font-family: courier;
+}
+
+/*
+for the table
+*/
+table {
+	width:100%;
+	border:1px solid black;
+}
+
+
+/*
+for the id "cs"
+*/
+#cs {
+	text-align: right;
+	color: lemonchiffon;
+}
+
+/*
+for the id "tv"
+*/
+#tv {
+	background-color: aliceblue;
+    color: chocolate;
+    padding: 10px;
+}
