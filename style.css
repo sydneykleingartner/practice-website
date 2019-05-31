@@ -12,6 +12,19 @@ ul {
 	border-color: red;
 	border-radius: 8px;
 	color: white;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background color: darkgrey;
+	color: white;
 }
 
 h1, h2 {
