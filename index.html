@@ -3,13 +3,19 @@
 <head>
 <title>A super cool website!</title>
 </head>
-<body style="background-color:lightsalmon;">
+<body style="background-color:lightgrey;">
 
 <h1 style="color:white">Welcome to my website!</h1>
 <h3 style="color:teal"><strong>It's just a bunch of random stuff!</strong></h3>
 
-<h2 style="color:white">A lower heading!</h2>
+<a href="cs">Jump down to information about GW Computer Science!</a>
+
+<a href="tv">Jump down to information about some of my favorite TV shows!</a>
+
+<h2 style="color:white">Want to know what the date and time are?</h2>
 <p style="font-family:courier;">more words more words more words</p>
+<button type="button" onclick="document.getElementById(
+'demo').innerHTML = Date()"> Click here! </button>
 
 <h4 style="border:5px solid Tomato; padding: 10px;">Another large heading!</h4>
 
@@ -20,10 +26,15 @@
 </p>
 
 <p>
-<img src="giraffe.jpg" alt="A cool giraffe" width="1590" height="2011">
+<img src="/sydneys_website/giraffe.jpg" alt="A cool giraffe" width="1590" height="2011">
 </p>
 
 <button style="color:teal">Oh look- a button!</button>
+
+
+<h2> id="cs">GW Computer Science</h2>
+
+<iframe src="https://www.cs.seas.gwu.edu/"></iframe>
 
 <p title style="color:white"><strong>Classes I'm taking next semester:</strong>
     <ul>
@@ -43,23 +54,6 @@
         <li><small>CSCI 2113 Software Engineering</small></li>
     </ol>
 </p>
-
-<p>
-<q>e = mc^2</q> - Albert Einstein
-</p>
-
-<p>
-Albert Einstein's theory of special relativity is:
-<blockquote> e = mc^2 </blockquote>
-</p>
-
-<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
-
-<map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
-</map>
 
 <p>
 
@@ -92,7 +86,7 @@ Albert Einstein's theory of special relativity is:
     <tr>
         <td>CSCI</td>
         <td>2113</td>
-        <td>Software Engineering</td>
+        <td>Software Enginee ring</td>
     </tr>
     
     <tr>
@@ -104,6 +98,67 @@ Albert Einstein's theory of special relativity is:
 </table>
 
 </p>
+
+<h2> id="tv">TV Shows!</h2>
+
+<style>
+.tvshows {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+</style>
+
+<button onclick="deleteNames()">Delete TV Show Names!</button>
+
+<h3 class="tvshows">Characters on "Friends"</h3>
+<p class="tvshows">
+    <ul>
+        <li>Rachel Green</li>
+        <li>Ross Geller</li>
+        <li>Chandler Bing</li>
+        <li>Monica Geller</li>
+        <li>Phoebe Buffay</li>
+        <li>Joey Tribbiani</li>
+    </ul>
+</p>
+
+<h3 class="tvshows">Characters on "How I Met Your Mother"</h3>
+<p class="tvshows">
+    <ul>
+        <li>Ted Mosby</li>
+        <li>Robin Scherbatsky</li>
+        <li>Barney Stinson</li>
+        <li>Lily Aldrin</li>
+        <li>Marshall Ericksen</li>
+    </ul>
+</p>
+
+<script>
+function deleteNames() {
+    var x = document.getElementsByClassName("tvshows");
+    for (var i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+}
+</script>
+
+<p>
+<q>e = mc^2</q> - Albert Einstein
+</p>
+
+<p>
+Albert Einstein's theory of special relativity is:
+<blockquote> e = mc^2 </blockquote>
+</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
 
 </body>
 </html>
