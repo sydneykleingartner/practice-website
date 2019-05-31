@@ -6,7 +6,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: yellow;
+	background-color: white;
 	border-style: dotted;
 	border-width: 3px;
 	border-color: red;
@@ -37,7 +37,7 @@ h1, h2 {
 
 h3 {
 	color: cornflowerblue;
-	text-align: right;
+	text-align: center;
 }
 
 h4 {
@@ -46,7 +46,7 @@ h4 {
 }
 
 p {
-	background-color: seagreen;
+	background-color: white;
 	border-style: dotted solid double dashed;
 	border-width: 3px;
 	border-color: slategrey;
