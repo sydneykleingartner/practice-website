@@ -11,7 +11,7 @@ h1, h2 {
 }
 
 h3 {
-	color: mediumaquamarine;
+	color: cornflowerblue;
 	text-align: right;
 }
 
@@ -36,6 +36,7 @@ p {
 table {
 	width:100%;
 	border:1px solid black;
+	background-color: coral;
 }
 
 
