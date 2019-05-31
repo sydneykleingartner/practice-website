@@ -2,18 +2,13 @@ body {
 	background-color: tomato;
 }
 
-h1 {
-	color: white;
-	text-align: center;
-}
-
-h2 {
+h1, h2 {
 	color: white;
 	text-align: center;
 }
 
 h3 {
-	color: yellowgreen;
+	color: mediumaquamarine;
 	text-align: right;
 }
 
@@ -23,31 +18,26 @@ h4 {
 }
 
 p {
-	color: lightcyan;
+	background-color: lightcyan;
+	color: dimgrey;
 	text-align: center;
 	font-family: courier;
 }
 
-/*
-for the table
-*/
+/* for the table */
 table {
 	width:100%;
 	border:1px solid black;
 }
 
 
-/*
-for the id "cs"
-*/
+/* for the id "cs" */
 #cs {
 	text-align: right;
 	color: lemonchiffon;
 }
 
-/*
-for the id "tv"
-*/
+/* for the id "tv" */
 #tv {
 	background-color: aliceblue;
     color: chocolate;
