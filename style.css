@@ -36,8 +36,9 @@ h1, h2 {
 }
 
 h3 {
-	color: cornflowerblue;
+	color: white;
 	text-align: center;
+	text-transform: lowercase;
 }
 
 h4 {
