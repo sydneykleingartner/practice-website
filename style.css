@@ -11,7 +11,7 @@ ul {
 	border-width: 3px;
 	border-color: red;
 	border-radius: 8px;
-	color: white;
+	color: cornflowerblue;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@ li a {
 
 li a:hover {
 	background color: darkgrey;
-	color: white;
+	color: cornflowerblue;
 }
 
 h1, h2 {
